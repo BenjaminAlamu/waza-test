@@ -2,9 +2,11 @@
 
 ## How to run the code
 
-> Simply run node index.js --command [commandName] [paramKey=paramValue] [paramKey=paramValue]
+> Simply run node index.js --command [commandName] [paramKey=paramValue]
 > e.g
 > ` node index.js --command fundsTransfer senderId=0 receiverId=1 amount=4`
+
+> A package like [Minimist](https://github.com/minimistjs/minimist) would have handled this better but it wasn't used due to the test requirements
 
 Here are list of all allowed commands, the params expected by each command are found in the JSDoc added to the codebase
 
